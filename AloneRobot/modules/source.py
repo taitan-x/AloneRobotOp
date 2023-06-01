@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from AloneRobot import OWNER_ID, dispatcher
 from AloneRobot import pbot as client
 
-Alone = "https://graph.org/file/d874fc40ddf9ead0cad6b.jpg"
+Alone = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "📍ʀᴇᴘᴏ📍",
-                        url="https://t.me/ALONE_WAS_BOT",
+                        url="https://github.com/TeamAloneOp/AloneRobot/fork",
                     ),
                 ]
             ]
