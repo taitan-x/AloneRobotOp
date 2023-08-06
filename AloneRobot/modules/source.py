@@ -30,11 +30,10 @@ async def repo(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "📍ᴏᴡɴᴇʀ📍",f"tg://user?id={OWNER_ID}"
+                        "•ᴀʟᴏɴᴇ ᴍᴜꜱɪᴄ•", url="https://github.com/TeamAloneOp/AloneX/fork"
                     ),
                     InlineKeyboardButton(
-                        "📍ʀᴇᴘᴏ📍",
-                        url="https://github.com/TeamAloneOp/AloneRobot/fork",
+                        "•ᴀʟᴏɴᴇ ʀᴏʙᴏᴛ•", url="https://github.com/TeamAloneOp/AloneRobot/fork"
                     ),
                 ]
             ]
