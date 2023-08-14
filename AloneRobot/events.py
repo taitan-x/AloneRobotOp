@@ -74,7 +74,12 @@ def callbackquery(**args):
 
     return decorator
 
+def Aloneinline(**args):
+    def decorator(func):
+        telethn.add_event_handler(func, events.CallbackQuery(**args))
+        return func
 
+    return decorator
 def bot(**args):
     pattern = args.get("pattern")
     r_pattern = r"^[/]"
@@ -143,7 +148,7 @@ def bot(**args):
     return decorator
 
 
-def fallenrobot(**args):
+def alonerobot(**args):
     pattern = args.get("pattern", None)
     args.get("disable_edited", False)
     ignore_unsafe = args.get("ignore_unsafe", False)
